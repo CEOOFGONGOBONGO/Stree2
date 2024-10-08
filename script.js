@@ -20,7 +20,7 @@ async function fetchMedia() {
                     const a = document.createElement('a');
                     const baseName = file.name.substring(0, file.name.lastIndexOf('.'));  // Extracts up to the last dot
 
-                    a.href = `https://raw.githubusercontent.com/gongobongofounder/Stree2/main/${baseName}`;
+                    a.href = `https://raw.githubusercontent.com/Somu6969/Stree2Movie/main/${baseName}`;
                     img.src = file.download_url;
                     img.alt = file.name;
                     imagecard.appendChild(a);
