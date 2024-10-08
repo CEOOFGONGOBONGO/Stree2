@@ -1,4 +1,4 @@
-const repoURL = 'https://api.github.com/repos/gongobongofounder/Stree2/contents/'; // Replace with your GitHub repo details
+const repoURL = 'https://api.github.com/repos/Somu6969/Stree2Movie/contents/'; // Replace with your GitHub repo details
 
 async function fetchMedia() {
     try {
